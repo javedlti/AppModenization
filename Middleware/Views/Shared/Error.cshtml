@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Error";
+    Layout = "_Layout";
+}
+<h3>An Error Occured while processing your request. Support team is working on fix</h3>
+<h5>Please contact suuport team on support@gmail.com </h5>
+<h3>Exception Details</h3>
+<div class="alert alert-danger">
+    <h5>Exception Path</h5>
+    <hr />
+    <p>@ViewBag.Path</p>
+</div>
+<div class="alert alert-danger">
+    <h5>Exception Message</h5>
+    <hr />
+    <p>@ViewBag.ExceptionMessgae</p>
+</div>
+<div class="alert alert-danger">
+    <h5>Stack Trace</h5>
+    <hr />
+    <p>@ViewBag.StackTrace</p>
+</div>
